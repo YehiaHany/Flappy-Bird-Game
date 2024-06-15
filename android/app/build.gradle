@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.example.flappy_bird_game"
+    namespace "com.example.FlappyBird"
     compileSdk flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
