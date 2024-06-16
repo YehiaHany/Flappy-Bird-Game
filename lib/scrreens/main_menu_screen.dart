@@ -22,7 +22,14 @@ return Scaffold(
       decoration: const BoxDecoration(
         image: DecorationImage(image: AssetImage(Assets.menu),fit: BoxFit.cover),
       ),
-      child: Image.asset(Assets.message),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Image.asset(Assets.message),
+          Text("Highest Score:${game.highScore}" , style: const TextStyle(color: Colors.blue,
+              fontSize: 30, fontFamily: 'Game', fontWeight: FontWeight.bold),)
+        ],
+      ),
     ),
   ),
 );

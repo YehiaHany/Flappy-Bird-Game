@@ -28,6 +28,14 @@ class SplashScreen extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            Text(
+              "By Yehia Hany",
+              style: TextStyle(
+                fontSize: 20,
+                fontFamily: 'Game',
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         ),
       ),

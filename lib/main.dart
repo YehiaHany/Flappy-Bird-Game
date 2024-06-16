@@ -1,6 +1,6 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flame/game.dart';
-import 'package:flappy_bird_game/scrreens/game_over-screen.dart';
+import 'package:flappy_bird_game/scrreens/game_over_screen.dart';
 import 'package:flappy_bird_game/scrreens/main_menu_screen.dart';
 import 'package:flappy_bird_game/scrreens/splashScreen.dart';
 import 'package:flutter/foundation.dart';

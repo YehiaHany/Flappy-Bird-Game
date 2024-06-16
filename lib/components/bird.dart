@@ -8,7 +8,7 @@ import 'package:flutter/animation.dart';
 import 'package:flutter/cupertino.dart';
 
 import '../game/assets.dart';
-import '../game/bird_movment.dart';
+import '../game/bird_movement.dart';
 
 class Bird extends SpriteGroupComponent<BirdMovement>
     with HasGameRef<FlappyBirdGame>,CollisionCallbacks{
@@ -58,6 +58,7 @@ class Bird extends SpriteGroupComponent<BirdMovement>
 
   void gameOver(){
     game.isHit = true;
+    game.onRemove();
     FlameAudio.play(Assets.collision);
     gameRef.overlays.add('gameOver');
     gameRef.pauseEngine();

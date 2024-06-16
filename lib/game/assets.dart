@@ -16,6 +16,7 @@ class Assets {
   static const flying = 'fly.wav';
   static const collision = 'collision.wav';
   static const point = 'point.wav';
+  static const background = 'background.wav';
 
   static const splashIcon = "assets/Lottie/Animation - 1718413588538.json";
 }
